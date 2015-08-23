@@ -3,7 +3,7 @@
 
 makeCacheMatrix <- function(x = matrix()) {
     ##x is a square invertible matrix
-    ##first we create an empty inverse object to pass between methods
+
     inverse <- NULL
     set <- function(y) {
         x <<- y
